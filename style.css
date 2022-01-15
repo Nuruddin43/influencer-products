@@ -5,12 +5,12 @@ body {
     font-family: 'Pacifico', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'PT Sans', sans-serif;
-    margin: 80px 100px;
+    background-color: whitesmoke;
 
 }
-
+ /* Header style */
 header{
-    margin: 0;
+    margin: 100px;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -36,9 +36,11 @@ a:hover{
     transform: translate(180px);
 }
 /* animation end */
+/* section-1 Style */
 section {
     display: flex;
     align-items: center;
+    margin: 100px;
 }
 section h1{
     font-size: 50px;
@@ -54,7 +56,7 @@ section img{
 }
 .button-link{
     text-decoration: none;
-    background-color: cadetblue;
+    background-color: #E03B8B;
     padding: 10px 30px;
     border-radius: 20px;
     color: white;
@@ -66,6 +68,7 @@ section img{
     background-position: right;
     margin-bottom: 100px;
 }
+/* hr styles */
 hr{
     border: 1px solid #f5eaea6c;
     margin: 10px 80px;
@@ -73,8 +76,80 @@ hr{
 .middle-hr{
     display: flex;
     justify-content: center;
-    margin: 10px;   
+    margin: 10px;
+    align-items: center;   
 }
 .middle-hr img{
-    width: 100px;   
+    width: 100%;
+
 }
+/* products list */
+.section-2{
+    margin: 100px;
+    justify-content: center;
+}
+.coll-name{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.products{
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.product .product-picture img{
+    max-width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.product{
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 8px 0 rgb(231, 225, 225);
+
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
+.link-button{
+    padding: 10px 30px;
+    color: #E03B8B;
+    font-weight: 700;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.section-3 img{
+    height: 300px;
+}
+ /* footer section */
+.footer-container{
+    margin-top: 50px;
+    margin-bottom: 0;
+    background-color: black;
+    text-align: center;
+    padding: 10px;  
+}
+.footer-container a{
+    color: white;
+    text-decoration: none;
+    
+}
+.footer-container h3{
+    color: white;
+    margin-top: 20px;
+}
+.footer-para{
+    color: white;
+    margin-top: 20px;
+}
+
+
